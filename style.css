@@ -14,3 +14,60 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bodyTittle {
+    width: 80vw;
+    height: 100px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    color: rgb(255, 204, 75);
+    border-radius: 0 0 10px 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightsteelblue;
+}
+
+.increaseList {
+    min-width: 50vw;
+    width: 500px;
+    min-height: 100px;
+
+    background-color: lightcyan;
+
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.increaseList li {
+    margin-top: 1em;
+}
+
+.increaseList li:last-child {
+    margin-bottom: 1em;
+}
+
+.addButton {
+    width: 150px;
+    height: 40px;
+
+    color: orangered;
+    font-weight: bold;
+    border-color: greenyellow;
+    background-color: purple;
+    border-radius: 10px;
+
+    margin-top: 50px;
+}
